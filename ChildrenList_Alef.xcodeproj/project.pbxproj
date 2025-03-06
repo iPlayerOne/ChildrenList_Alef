@@ -11,10 +11,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		307FA82A2D638C7100D24DED /* Exceptions for "ChildrenList_Alef" folder in "ChildrenList_Alef" target */ = {
+		308D8E792D78D08F0037C330 /* Exceptions for "ChildrenList_Alef" folder in "ChildrenList_Alef" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				App/Info.plist,
 			);
 			target = 307FA8172D638C6F00D24DED /* ChildrenList_Alef */;
 		};
@@ -24,7 +24,7 @@
 		307FA81A2D638C6F00D24DED /* ChildrenList_Alef */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				307FA82A2D638C7100D24DED /* Exceptions for "ChildrenList_Alef" folder in "ChildrenList_Alef" target */,
+				308D8E792D78D08F0037C330 /* Exceptions for "ChildrenList_Alef" folder in "ChildrenList_Alef" target */,
 			);
 			path = ChildrenList_Alef;
 			sourceTree = "<group>";
@@ -145,11 +145,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2L3X2RFT6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ChildrenList_Alef/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ChildrenList_Alef/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -172,11 +172,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2L3X2RFT6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ChildrenList_Alef/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ChildrenList_Alef/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
