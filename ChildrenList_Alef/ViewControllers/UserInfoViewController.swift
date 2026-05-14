@@ -1,6 +1,6 @@
 import UIKit
 
-class UserInfoViewController: UIViewController {
+final class UserInfoViewController: UIViewController {
     private let vm: UserInfoViewModel
     private let tableView: UITableView = {
         let table = UITableView()
@@ -36,13 +36,6 @@ class UserInfoViewController: UIViewController {
         setupBindings()
         vm.onDataUpdated?()
         registerForKeyboardNotifications()
-    }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        if headerView.frame.height.isNaN {
-            headerView.setNeedsLayout()
-        }
     }
     
     override func viewWillDisappear(_ animated: Bool) {

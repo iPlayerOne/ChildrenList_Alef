@@ -2,10 +2,9 @@ protocol UserStorage {
     func getUser() -> User
     func updateUser(_ user: User)
     func clearAll()
-    
 }
+
 final class UserStore: UserStorage {
-    
     private let storage: UserDefaultsManager
     private let key = "user"
     
@@ -14,24 +13,20 @@ final class UserStore: UserStorage {
     }
     
     func getUser() -> User {
-//        storage.get(forKey: key, type: User.self) ?? User(name: "", age: nil, children: [])
         if let user = storage.get(forKey: key, type: User.self) {
-            print("[getUser] Загружены данные: \(user)")
+            AppLogger.shared.debug("[getUser] Загружены данные: \(user)")
             return user
         }
-        print("[getUser] Данных нет")
+        AppLogger.shared.debug("[getUser] Данных нет")
         return User(name: "", age: nil, children: [])
     }
     
     func updateUser(_ user: User) {
-        print("[updateUser] Сохранение: \(user)")
+        AppLogger.shared.debug("[updateUser] Сохранение: \(user)")
         storage.set(user, forKey: key)
     }
     
     func clearAll() {
         storage.remove(forKey: key)
     }
-    
-    
 }
-
